@@ -1,0 +1,17 @@
+# HeightLimitPlugin 設定ファイル
+
+# 建築可能な最大Y座標
+# バニラ上限: 320（1.18以降）/ 256（1.17以前）
+# このプラグインで拡張できる上限: 1000
+max-build-height: 1000
+
+# ゲームモード別の設定
+# true: クリエイティブモードのみ制限を緩和する
+# false: 全プレイヤーに適用する
+creative-only: false
+
+# 制限を超えた際にメッセージを表示するか
+show-warning-message: true
+
+# 警告メッセージ（%height% で現在高度に置換されます）
+warning-message: "§c高度 %height% はサーバーの制限（1000）を超えています！"
